@@ -1,0 +1,27 @@
+[
+  {
+    "file": "/tmp/watchtest.txt",
+    "timestamp": "2026-03-23T19:03:11.661139",
+    "sha256": "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03",
+    "matches": [],
+    "status": "clean"
+  },
+  {
+    "file": "/tmp/live_test.txt",
+    "timestamp": "2026-03-23T19:03:11.661388",
+    "sha256": "0f6bf34b870b4720218bfabb90f51e262f6fde3500c59442fc4cfccc246725e5",
+    "matches": [
+      {
+        "rules": "Suspicious_Shell_Commands",
+        "severity": "high",
+        "description": "Detects reverse shell and command execution patterns",
+        "strings": [
+          "$s1",
+          "$s6",
+          "$s7"
+        ]
+      }
+    ],
+    "status": "infected"
+  }
+]

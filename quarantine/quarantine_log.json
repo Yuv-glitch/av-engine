@@ -1,0 +1,26 @@
+[
+  {
+    "original_path": "/tmp/live_test.txt",
+    "quarantine_path": "quarantine/20260323_185020__live_test.txt",
+    "timestamp": "2026-03-23T18:50:20.372116",
+    "sha256": "0f6bf34b870b4720218bfabb90f51e262f6fde3500c59442fc4cfccc246725e5",
+    "matched_rules": [
+      "Suspicious_Shell_Commands"
+    ],
+    "severity": [
+      "high"
+    ]
+  },
+  {
+    "original_path": "/tmp/live_test.txt",
+    "quarantine_path": "quarantine/20260323_185155__live_test.txt",
+    "timestamp": "2026-03-23T18:51:55.676275",
+    "sha256": "0f6bf34b870b4720218bfabb90f51e262f6fde3500c59442fc4cfccc246725e5",
+    "matched_rules": [
+      "Suspicious_Shell_Commands"
+    ],
+    "severity": [
+      "high"
+    ]
+  }
+]
